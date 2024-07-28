@@ -1,0 +1,49 @@
+
+body {
+    background-image: radial-gradient(rgb(42, 4, 255), rgb(255, 0, 0));
+    width: 100vw;
+    height: 100vh;
+}
+
+div.container {
+    margin: auto;
+   
+    color: white;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    max-width: 50%;
+    width: 400px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.123);
+    color: white;
+    align-items: center;
+ 
+}
+
+div.users {
+    margin: 10px;
+    display: flex;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 330px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+img:hover {
+    color: blue;
+}
